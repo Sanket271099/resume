@@ -1,0 +1,129 @@
+body{
+	background-color:#e9d1bf;
+}
+#top-Cover{
+	background-image: url("image/2nd lappy.jpg");
+	background-size: cover;
+	background-position: center;
+	width:100%:;
+	height: 523px;
+	 min-width: 200px;
+	 opacity: 0.8;
+    background-attachment: fixed;
+}
+ul li{
+
+	display: inline-block;
+    margin: 30px;
+
+	color: white
+	
+}
+ul li:hover{
+	
+	box-shadow: 0px 0px 6px 4px white;
+	transition: 0.4s;
+	
+	border-bottom: black solid 2px;
+}
+.name{
+	font-size: 80px;
+
+	color:grey;
+
+    
+
+}
+#name{
+ position: absolute;
+ left:463px; 
+ top:633px;
+text-align: center;
+ }
+#mypic{
+	background-image:url("image/sanket.jpg");
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	border-radius:100px;
+    position: relative;
+    left:50%; 
+    top:-103px;
+    box-shadow: 0px 0px 6px 4px white;
+}
+
+}
+#name:hover{
+	box-shadow:0px 0px 4px 6px white;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+}
+.title{
+	position: relative;
+	left: 50%;
+	font-size: 40px;
+	color: grey;
+}
+#Bio p{
+
+	position: relative;
+	
+	
+
+}
+ul li a:hover{
+	color:red;
+	transition: 0.8;
+}
+
+#Bio{	width: 50%;
+	background-color: lightgrey;
+	position: relative;
+	left: 30%;
+	border: solid black 3px;
+	height: auto;
+	
+}
+#Bio div a i{
+	margin-right: 10px;
+	align-content: center;
+
+}
+#PortFolio{
+	width:70%;
+	height: auto;
+	border: Solid black 3px;
+}
+i{
+	color: grey;
+}
+.sameLevel1{
+
+	position: relative;
+	border:3px solid black;
+	width: 50%;
+
+
+}
+#PortFolio{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	
+}
+.sameLevel2{
+	position: relative;
+	border:3px solid black;
+	width: 50vh;
+	left:60%;
+	margin:3px; 
+
+
+}
+#blank{
+	border-bottom: 3px solid black;
+	margin-bottom: 4px;
+	width: 100%;
+}
